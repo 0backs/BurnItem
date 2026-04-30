@@ -1,0 +1,14 @@
+name: BurnItem
+version: '1.0'
+main: org.Pursar.burnItem.BurnItem
+api-version: '1.21'
+authors: [ Pursar ]
+
+commands:
+  용광로아이템설정:
+    description: BurnItem 플러그인 명령어
+    permission: burnitem.admin
+
+permissions:
+  burnitem.admin:
+    default: op
